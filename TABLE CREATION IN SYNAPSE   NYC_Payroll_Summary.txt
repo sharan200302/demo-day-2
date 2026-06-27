@@ -1,0 +1,16 @@
+
+
+                      TABLE CREATION IN SYNAPSE :  NYC_Payroll_Summary
+
+
+
+
+
+
+CREATE TABLE [dbo].[NYC_Payroll_Summary]
+(
+    [FiscalYear] INT NULL,
+    [AgencyName] VARCHAR(50) NULL,
+    [TotalPaid] FLOAT NULL
+)
+GO

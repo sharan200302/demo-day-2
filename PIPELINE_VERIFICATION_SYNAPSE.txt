@@ -1,0 +1,17 @@
+
+                                            PIPELINE VERIFICATION IN SYNAPSE
+
+
+
+SELECT COUNT(*) FROM dbo.NYC_Payroll_EMP_MD;
+SELECT COUNT(*) FROM dbo.NYC_Payroll_TITLE_MD;
+SELECT COUNT(*) FROM dbo.NYC_Payroll_AGENCY_MD;
+SELECT COUNT(*) FROM dbo.NYC_Payroll_Data;
+
+
+
+                                           FINAL VERIFICATION OF PIPELINE
+
+
+SELECT *
+FROM dbo.NYC_Payroll_Summary;
